@@ -1,0 +1,65 @@
+.App{
+    background-color:blue ;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+
+
+.modal button{
+    background-color: #47a386;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 10px 25px;
+    font-size: 14px;
+}
+
+.content button{
+    margin: 20px;
+    align-self: center;
+    background-color: #5799e4;
+    color: white;
+    border: 0;
+    width: 20%;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 10px 25px;
+    font-size: 14px;
+}
+.main{
+    display: none; /* Hidden by default */
+    
+
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    padding: 00px 00px;
+    max-height: 100%;
+    align-items: center;
+    justify-content: center;
+    left: 0;
+    top: 0;
+    border-radius: 5px;
+    background-color: white;
+    max-width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    align-content: center;
+    overflow: auto;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 5% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
